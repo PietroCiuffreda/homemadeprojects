@@ -23,7 +23,8 @@ Materiali utilizzati :
    - Integrato MSGEQ7
    - Arduino UNO
    - Breadboard
-   
+
+Nel MSGEQ7 ci sono sette filtri passa-banda che fanno passare le frequenze 63, 160, 400, 1000, 2500, 6250 e 16000 Hz. L'uscita di ogni filtro è collegata a un rivelatore di picco, e poi un multiplexer controllato da linee di reset e stroboscopiche (rilevano la frequenza di segnali periodici).
 N.B. nella repository vegono inseriti per comodità di consultazione, oltre al codice sorgente, anche il datasheet dell'integrato MSGEQ7 (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/MSGEQ7.pdf), lo schema circuitale dello stesso (https://github.com/PietroCiuffreda/homemadeprojects/blob/master/schema%20MSGEQ7.png) e infine lo schema del display LCD con una legenda in modo da interpretare come ho collegato i vari pin all'Arduino. Qui https://github.com/PietroCiuffreda/homemadeprojects/blob/master/Equalizzatore%20Fritzing.png invece ho lasciato lo schema realizzato su Fritzing e qui una foto della realizzazione https://github.com/PietroCiuffreda/homemadeprojects/blob/master/photo_equalizzatore.jpg
 
 
