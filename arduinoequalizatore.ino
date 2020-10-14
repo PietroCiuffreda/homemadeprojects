@@ -8,10 +8,6 @@ int strobe=4; //controllo circuito integrato
 int reset=5;
 int valorifreq[7];  //le 7 frequenze dell'integrato
 
-
-
-
-
 void setup()
 {
   for (int j=0; j<=7; j++) //inizializzazione matrice 8x8
