@@ -8,7 +8,7 @@ Al momento sono attivi tre semplici progetti:
 
 **Equalizzatore grafico**
 
-Obbiettivo: realizzare un equalizzatore con Arduino UNO attraverso che possa raffigurare le frequenze di un qualsiasi input in ingresso audio (che sia una musica o voce) e visualizzando il tutto attraverso un display LCD 16x2.
+Obbiettivo: realizzare un equalizzatore con Arduino UNO attraverso che possa raffigurare le frequenze di un qualsiasi input in ingresso audio (che sia una musica o voce) e visualizzando il tutto attraverso un display LCD 16x2. Chiaramente il progetto è solo a scopo illustrativo, non vuole andare a regolare le frequenze da equalizzare ma semplicemente visualizzarle per dare un'informazione quantitativa.
 
 Materiali utilizzati : 
 
@@ -24,7 +24,7 @@ Materiali utilizzati :
    - Arduino UNO
    - Breadboard
    
-N.B. nella repository vegono inseriti per comodità di consultazione, oltre al codice sorgente, anche il datasheet dell'integrato MSGEQ7 (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/MSGEQ7.pdf), lo schema circuitale dello stesso (https://github.com/PietroCiuffreda/homemadeprojects/blob/master/schema%20MSGEQ7.png) e infine lo schema del display LCD con una legenda in modo da interpretare come ho collegato i vari pin all'Arduino. 
+N.B. nella repository vegono inseriti per comodità di consultazione, oltre al codice sorgente, anche il datasheet dell'integrato MSGEQ7 (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/MSGEQ7.pdf), lo schema circuitale dello stesso (https://github.com/PietroCiuffreda/homemadeprojects/blob/master/schema%20MSGEQ7.png) e infine lo schema del display LCD con una legenda in modo da interpretare come ho collegato i vari pin all'Arduino. Qui https://github.com/PietroCiuffreda/homemadeprojects/blob/master/Equalizzatore%20Fritzing.png invece ho lasciato lo schema realizzato su Fritzing e qui una foto della realizzazione https://github.com/PietroCiuffreda/homemadeprojects/blob/master/photo_equalizzatore.jpg
 
 
 **Ripetitore infrarossi per telecomando**
@@ -44,16 +44,6 @@ N.B. il ripetitore può essere utilizzato anche su una basetta millefori per eve
 
 **Regolazione e visualizzazione di un VUmeter tramite led**
 
-Obbiettivo: realizzare con Arduino Uno un Vu Meter amatoriale. Il Vu meter è uno strumento in grado di leggere l’intensità di un segnale audio e riportarla in dei valori leggibili (dB); quello che voglio fare è riprodurre un Vu meter utilizzando il segnale di un dispositivo di riproduzione audio (nel nostro caso un microfono amplificato) che, basandosi sull’intensità del suono emessa, accenderà più o meno led.
-
-Materiali utilizzati:
-
-   - Arduino UNO
-   - 6 led (3 verdi, 2 gialli, 1 rosso)
-   - 6 resistori da 220 Ω
-   - 1 microfono amplificato
-
-Nella repository ho inserito lo schema circuitale utilizzato (file da caricare) e la realizzazione sul software Fritzing (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/vumeter.png) e ovviamente il codice sorgente (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/vumeterarduino.ino)
 
 
 *update 5/10/2020
