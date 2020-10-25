@@ -41,7 +41,7 @@ Materiali utilizzati:
    - 1 fototransistor ricevente IR
    - 1 transistor npn (PN2222)
 
-N.B. il ripetitore può essere utilizzato anche su una basetta millefori per eventualmente essere saldato. Nella repository ho inserito il datasheet del PN2222 (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/PN2222-D.PDF), lo schema circuitale utilizzato (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/schema%20circuitale%20rip%20infrarosso.jpg) e la realizzazione dello stesso (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/ripinfraross.jpg).
+N.B. il ripetitore può essere utilizzato anche su una basetta millefori per eventualmente essere saldato. Nella repository ho inserito il datasheet del PN2222 (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/PN2222-D.PDF), lo schema circuitale utilizzato, dove il fototransistor ricevente manda il proprio segnale pilotando il transistor PN2222 (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/schema%20circuitale%20rip%20infrarosso.jpg) e la realizzazione dello stesso (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/ripinfraross.jpg).
 
 **Regolazione e visualizzazione di un VUmeter tramite led**
 
