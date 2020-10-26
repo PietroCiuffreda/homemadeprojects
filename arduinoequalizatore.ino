@@ -1,12 +1,13 @@
 #include <LiquidCrystal.h>
 
 LiquidCrystal lcd(12, 11, 7, 6, 3, 2);
-byte vuMeter[8][8]; 
-float vuMeters[16]; //le barre del display
-int valanalog=0;  //pin analogico Arduino (ao)
+float vuMeters[16]; //le barre del display (16)
+int valanalog=0;  //pin analogico Arduino (A0)
 int strobe=4; //controllo circuito integrato
 int reset=5;
 int valorifreq[7];  //le 7 frequenze dell'integrato
+byte vuMeter[8][8]; //matrice 8x8
+
 
 void setup()
 {
@@ -25,7 +26,7 @@ void setup()
     }
    for (int i=0; i<=7; i++)
    {
-   lcd.createChar(i, vuMeter[i]); //viene creato un glyph per l'uso sul diplay LCD
+   lcd.createChar(i, vuMeter[i]); //viene creato un glyph per l'uso sul diplay LCD (c'è bisogno di un array di 8 byte per ogni glyph; i->carattere che verrà creato da 0 a 7, vuMeter->i dati del pixel da caricare 
    } 
 lcd.begin(16,2); //altezza e larghezza del display
 for (int i=0;i<=7;i++)
