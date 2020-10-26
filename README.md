@@ -8,7 +8,8 @@ Al momento sono attivi tre semplici progetti:
 
 **Equalizzatore grafico**
 
-Obbiettivo: realizzare un equalizzatore con Arduino UNO attraverso che possa raffigurare le frequenze di un qualsiasi input in ingresso audio (che sia una musica o voce) e visualizzando il tutto attraverso un display LCD 16x2. Chiaramente il progetto è solo a scopo illustrativo, non vuole andare a regolare le frequenze da equalizzare ma semplicemente visualizzarle per dare un'informazione quantitativa.
+Obbiettivo: realizzare un equalizzatore con Arduino UNO attraverso che possa raffigurare le frequenze di un qualsiasi input in ingresso audio (che sia una musica o voce) e visualizzando il tutto attraverso un display LCD 16x2. Chiaramente il progetto è solo a scopo illustrativo, non vuole andare a regolare le frequenze da equalizzare ma semplicemente visualizzarle per dare un'informazione quantitativa. Per far partire l'equalizzatore basterà collegare il cavo jack-jack dal pc o da qualsiasi dispositivo che emette suoni al audio jack situato sulla breadboard e appena la canzone o qualsiasi suono partirà, si potranno vedere gli spettri delle varie sequenze sul display LCD.
+
 
 Materiali utilizzati : 
 
