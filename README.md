@@ -8,7 +8,7 @@ Al momento sono attivi tre semplici progetti:
 
 **Equalizzatore grafico**
 
-Obbiettivo: realizzare un equalizzatore con Arduino UNO attraverso che possa raffigurare le frequenze di un qualsiasi input in ingresso audio (che sia una musica o voce) e visualizzando il tutto attraverso un display LCD 16x2. Chiaramente il progetto è solo a scopo illustrativo, non vuole andare a regolare le frequenze da equalizzare ma semplicemente visualizzarle per dare un'informazione quantitativa. Per far partire l'equalizzatore basterà collegare il cavo jack-jack dal pc o da qualsiasi dispositivo che emette suoni al audio jack situato sulla breadboard e appena la canzone o qualsiasi suono partirà, si potranno vedere gli spettri delle varie sequenze sul display LCD.
+Obiettivo: realizzare un equalizzatore con Arduino UNO attraverso che possa raffigurare le frequenze di un qualsiasi input in ingresso audio (che sia una musica o voce) e visualizzando il tutto attraverso un display LCD 16x2. Chiaramente il progetto è solo a scopo illustrativo, non vuole andare a regolare le frequenze da equalizzare ma semplicemente visualizzarle per dare un'informazione quantitativa. Per far partire l'equalizzatore basterà collegare il cavo jack-jack dal pc o da qualsiasi dispositivo che emette suoni al audio jack situato sulla breadboard e appena la canzone o qualsiasi suono partirà, si potranno vedere gli spettri delle varie sequenze sul display LCD.
 Io ho usato i primi e gli ultimi 6 pin :
 
     1 pin --> massa
@@ -45,7 +45,7 @@ N.B. nella repository vegono inseriti per comodità di consultazione, oltre al c
 
 **Ripetitore infrarossi per telecomando**
 
-Obbiettivo: realizzare un ripetitore ad infrarossi per telecomando della televisione a casa di mia nonna. Dal momento che il decoder del digitale terrestre che si trova a casa di mia nonna si trova in una posizione non comodissima e quindi si è costretti ogni volta ad alzarsi dal letto per cambiare canale o aumentare/diminuire il volume della televisione ho pensato di realizzare con alcune cose che avevo già in casa un prototipo di ripetitore infrarossi.
+Obiettivo: realizzare un ripetitore ad infrarossi per telecomando della televisione a casa di mia nonna. Dal momento che il decoder del digitale terrestre che si trova a casa di mia nonna si trova in una posizione non comodissima e quindi si è costretti ogni volta ad alzarsi dal letto per cambiare canale o aumentare/diminuire il volume della televisione ho pensato di realizzare con alcune cose che avevo già in casa un prototipo di ripetitore infrarossi. Il progetto si basa sulla puntata del podcast "Survival Hacking" di Davide Gatti https://www.spreaker.com/user/runtime/18-ir-repeater.
 
 Materiali utilizzati:
 
