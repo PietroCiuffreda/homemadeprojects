@@ -4,7 +4,6 @@ Al momento sono attivi tre semplici progetti:
 
 1. Equalizzatore grafico tramite schermo LCD
 2. Ripetitore infrarossi per telecomando
-3. Regolazione e visualizzazione di un VUmeter tramite led *(in fase di test)
 
 **Equalizzatore grafico**
 
@@ -58,13 +57,8 @@ Materiali utilizzati:
 
 N.B. il ripetitore può essere utilizzato anche su una basetta millefori per eventualmente essere saldato. Nella repository ho inserito il datasheet del PN2222 (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/PN2222-D.PDF), lo schema circuitale utilizzato, dove il fototransistor ricevente manda il proprio segnale pilotando il transistor PN2222 (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/schema%20circuitale%20rip%20infrarosso.jpg) e la realizzazione dello stesso (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/ripinfraross.jpg).
 
-**Regolazione e visualizzazione di un VUmeter tramite led**
 
 
-
-*update 5/10/2020
-
-N.B. sto avendo problemi con il microfono, probabilmente quello che sto utilizzando non è correttamente amplificato oppure c'è qualcosa che non fa bene contatto perché tutti i led rimangono sempre spenti.
 
 
 
