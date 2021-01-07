@@ -42,21 +42,6 @@ Nel MSGEQ7 ci sono sette filtri passa-banda che fanno passare le frequenze 63, 1
 N.B. nella repository vegono inseriti per comodità di consultazione, oltre al codice sorgente, anche il datasheet dell'integrato MSGEQ7 (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/MSGEQ7.pdf), lo schema circuitale dello stesso (https://github.com/PietroCiuffreda/homemadeprojects/blob/master/schema%20MSGEQ7.png) e infine lo schema del display LCD con una legenda in modo da interpretare come ho collegato i vari pin all'Arduino. Qui https://github.com/PietroCiuffreda/homemadeprojects/blob/master/Equalizzatore%20Fritzing.png invece ho lasciato lo schema realizzato su Fritzing e qui una foto della realizzazione https://github.com/PietroCiuffreda/homemadeprojects/blob/master/photo_equalizzatore.jpg
 
 
-**Ripetitore infrarossi per telecomando**
-
-Obiettivo: realizzare un ripetitore ad infrarossi per telecomando della televisione a casa di mia nonna. Dal momento che il decoder del digitale terrestre che si trova a casa di mia nonna si trova in una posizione non comodissima e quindi si è costretti ogni volta ad alzarsi dal letto per cambiare canale o aumentare/diminuire il volume della televisione ho pensato di realizzare con alcune cose che avevo già in casa un prototipo di ripetitore infrarossi. Il progetto si basa sulla puntata del podcast "Survival Hacking" di Davide Gatti https://www.spreaker.com/user/runtime/18-ir-repeater.
-
-Materiali utilizzati:
-
-   - 1 batteria da 9 V
-   - 1 potenziometro da 100 KΩ
-   - 1 led verde
-   - 3 diodi IR
-   - 1 fototransistor ricevente IR
-   - 1 transistor npn (PN2222)
-
-N.B. il ripetitore può essere utilizzato anche su una basetta millefori per eventualmente essere saldato. Nella repository ho inserito il datasheet del PN2222 (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/PN2222-D.PDF), lo schema circuitale utilizzato, dove il fototransistor ricevente manda il proprio segnale pilotando il transistor PN2222 (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/schema%20circuitale%20rip%20infrarosso.jpg) e la realizzazione dello stesso (file https://github.com/PietroCiuffreda/homemadeprojects/blob/master/ripinfraross.jpg).
-
 
 
 
